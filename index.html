@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="containt">
+            <h1>Contador</h1>
+            <div>Clique nos botões para alterar o valor</div>
+            <div>Contador de 0 a 10</div>
+            <div class="counter">
+                <button name="subtrair" onclick="decrement()">-</button>
+                <span class="currentNumber">0</span>
+                <button name="somar" onclick="increment()">+</button>
+            </div>
+
+        </div>
+
+        <div class="containt">
+            <h1>Contador com addEventListener</h1>
+            <div>Clique nos botões para alterar o valor</div>
+            <div>Contador de 0 a 10</div>
+            <div class="counter">
+                <button name="subtrair" class="subtrair">-</button>
+                <span class="currentNumber_2">0</span>
+                <button name="somar" class="somar">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

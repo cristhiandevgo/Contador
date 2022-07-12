@@ -1,0 +1,43 @@
+body{
+    background-color: #CCC;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+}
+
+.containt{
+    flex: 1;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.counter{
+    padding: 1rem;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.aviso{
+    display: flex;
+    flex: 1;
+    background-color: white;
+    color: red;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
